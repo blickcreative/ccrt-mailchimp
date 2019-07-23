@@ -67,13 +67,14 @@ body table.body {
         padding-top: 15px;
         padding-bottom: 15px;
         font-weight: 500; }
-
-#footer-bar .menu-item, #footer-bar .menu-item a {
-  color: #ffffff;
-  font-size: 10px; }
-#footer-bar .pipe {
-  padding-left: 5px;
-  padding-right: 5px; }
-@media only screen and (max-width: 596px) {
-  #footer-bar .first {
-    padding-bottom: 0 !important; } }
+  body table.body #footer-bar .menu-item p {
+    text-align: center;
+    font-size: 10px;
+    font-weight: 300; }
+    body table.body #footer-bar .menu-item p a {
+      color: #1C3B6A;
+      font-size: 10px;
+      font-weight: 300; }
+  @media only screen and (max-width: 596px) {
+    body table.body #footer-bar .first {
+      padding-bottom: 0 !important; } }

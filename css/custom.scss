@@ -104,29 +104,31 @@ body table.body{
             }
         }
     }
+
+    #footer-bar {    
+        .menu-item {
+            p {
+                text-align: center;
+                font-size: 10px;
+                font-weight: 300;
+                a {
+                    color: $navy;
+                    font-size: 10px;
+                    font-weight: 300;
+                }
+            }
+        }
+    
+        @media only screen and (max-width: 596px) {
+            .first {
+                padding-bottom: 0!important;
+            }
+        }
+    }
+    
+    
 } 
 
 
 
-
-#footer-bar {
-    //background-color: $navy;
-
-    .menu-item, .menu-item a {
-        color: $white;
-        font-size: 10px;
-    }
-
-
-    .pipe {
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-
-    @media only screen and (max-width: 596px) {
-        .first {
-            padding-bottom: 0!important;
-        }
-    }
-}
 
